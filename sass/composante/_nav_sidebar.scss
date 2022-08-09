@@ -1,0 +1,22 @@
+
+.menu__sidebar__ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0; 
+   
+   .menu-item{ //li
+    margin: 1rem 0;
+
+    a{
+        text-decoration: none;
+        color: $color__text-main;
+        font-size: 1.1rem;
+        padding: .5rem;
+        line-height: 1.5;
+        &:hover{
+            background-color: lighten($color__background-zonegrid, 90%);
+        }
+    }
+
+    }
+}

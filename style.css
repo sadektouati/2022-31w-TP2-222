@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /*! 
-Theme Name: 31W-tp1
+Theme Name: 31W-tp2
 Author: Hanane Boukhalfa
-Author URI: http://github.com/Hanane05/31w
+Author URI: https://github.com/Hanane05/2022-31w-TP2.git
 Description: Thème de base pour le cours de 31W
 Version: 1.0.0
 Tested up to: 5.4
@@ -219,9 +219,9 @@ select {
  * Correct the inability to style clickable types in iOS and Safari.
  */
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
+[type=button],
+[type=reset],
+[type=submit] {
   -webkit-appearance: button;
 }
 
@@ -229,9 +229,9 @@ button,
  * Remove the inner border and padding in Firefox.
  */
 button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -240,9 +240,9 @@ button::-moz-focus-inner,
  * Restore the focus styles unset by the previous rule.
  */
 button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -286,8 +286,8 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-[type="checkbox"],
-[type="radio"] {
+[type=checkbox],
+[type=radio] {
   box-sizing: border-box;
   padding: 0;
 }
@@ -295,8 +295,8 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -304,7 +304,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-[type="search"] {
+[type=search] {
   -webkit-appearance: textfield;
   outline-offset: -2px;
 }
@@ -312,7 +312,7 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-[type="search"]::-webkit-search-decoration {
+[type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -482,35 +482,28 @@ a {
   color: #4169e1;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
-
 a:visited {
   color: #800080;
 }
-
 a:hover, a:focus, a:active {
   color: #191970;
 }
-
 a:focus {
   outline: thin dotted;
 }
-
 a:hover, a:active {
   outline: 0;
 }
 
 header a:visited {
-  color: #2b2e2d;
+  color: rgb(43, 46, 45);
 }
-
 header a:hover, header a:focus, header a:active {
   color: #191970;
 }
-
 header a:focus {
   outline: thin dotted;
 }
-
 header a:hover, header a:active {
   outline: 0;
 }
@@ -519,9 +512,9 @@ header a:hover, header a:active {
 --------------------------------------------- */
 .button,
 button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+input[type=button],
+input[type=reset],
+input[type=submit] {
   border: 1px solid;
   border-color: #ccc #ccc #bbb;
   border-radius: 3px;
@@ -530,64 +523,61 @@ input[type="submit"] {
   line-height: 1;
   padding: 0.6em 1em 0.4em;
 }
-
 .button:hover,
 button:hover,
-input[type="button"]:hover,
-input[type="reset"]:hover,
-input[type="submit"]:hover {
+input[type=button]:hover,
+input[type=reset]:hover,
+input[type=submit]:hover {
   border-color: #ccc #bbb #aaa;
 }
-
 .button:active, .button:focus,
 button:active,
 button:focus,
-input[type="button"]:active,
-input[type="button"]:focus,
-input[type="reset"]:active,
-input[type="reset"]:focus,
-input[type="submit"]:active,
-input[type="submit"]:focus {
+input[type=button]:active,
+input[type=button]:focus,
+input[type=reset]:active,
+input[type=reset]:focus,
+input[type=submit]:active,
+input[type=submit]:focus {
   border-color: #aaa #bbb #bbb;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="url"],
-input[type="password"],
-input[type="search"],
-input[type="number"],
-input[type="tel"],
-input[type="range"],
-input[type="date"],
-input[type="month"],
-input[type="week"],
-input[type="time"],
-input[type="datetime"],
-input[type="datetime-local"],
-input[type="color"],
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=password],
+input[type=search],
+input[type=number],
+input[type=tel],
+input[type=range],
+input[type=date],
+input[type=month],
+input[type=week],
+input[type=time],
+input[type=datetime],
+input[type=datetime-local],
+input[type=color],
 textarea {
   color: #666;
   border: 1px solid #ccc;
   border-radius: 3px;
   padding: 3px;
 }
-
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="url"]:focus,
-input[type="password"]:focus,
-input[type="search"]:focus,
-input[type="number"]:focus,
-input[type="tel"]:focus,
-input[type="range"]:focus,
-input[type="date"]:focus,
-input[type="month"]:focus,
-input[type="week"]:focus,
-input[type="time"]:focus,
-input[type="datetime"]:focus,
-input[type="datetime-local"]:focus,
-input[type="color"]:focus,
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=password]:focus,
+input[type=search]:focus,
+input[type=number]:focus,
+input[type=tel]:focus,
+input[type=range]:focus,
+input[type=date]:focus,
+input[type=month]:focus,
+input[type=week]:focus,
+input[type=time]:focus,
+input[type=datetime]:focus,
+input[type=datetime-local]:focus,
+input[type=color]:focus,
 textarea:focus {
   color: #111;
 }
@@ -608,19 +598,16 @@ textarea {
   margin: 0;
   padding: 0;
 }
-
 .menu__sidebar__ul .menu-item {
   margin: 1rem 0;
 }
-
 .menu__sidebar__ul .menu-item a {
   text-decoration: none;
   color: #404040;
   font-size: 1.1rem;
-  padding: .5rem;
+  padding: 0.5rem;
   line-height: 1.5;
 }
-
 .menu__sidebar__ul .menu-item a:hover {
   background-color: #f5f6ff;
 }
@@ -635,7 +622,6 @@ textarea {
   grid-template-columns: auto;
   grid-template-areas: "header" "sidebar" "main" "footer";
 }
-
 @media screen and (min-width: 700px) {
   .site {
     grid-template-areas: "header header" "sidebar main" "sidebar main" "footer footer";
@@ -655,17 +641,14 @@ textarea {
   z-index: 999999;
   width: 100%;
 }
-
 @media screen and (min-width: 700px) {
   .site__header {
     position: static;
   }
 }
-
 .site__header h2 {
   color: orangered;
 }
-
 .site__header a {
   text-decoration: none;
   color: white !important;
@@ -673,53 +656,43 @@ textarea {
 
 .site__main {
   grid-area: main;
-  overflow: hidden;
-  /* Resolves issue with <pre> elements forcing full width. */
+  overflow: hidden; /* Resolves issue with <pre> elements forcing full width. */
 }
-
 .site__main p {
   font-size: 1.2rem;
   line-height: 1.6rem;
-  letter-spacing: .035rem;
+  letter-spacing: 0.035rem;
   max-width: 800px;
 }
-
 .site__main h1 {
   font-size: 2.5rem;
 }
-
 .site__main h2 {
   margin-top: 5rem;
   font-size: 1.7rem;
 }
-
 .site__main h2 a {
   text-decoration: none;
 }
-
 .site__main h3 {
   font-size: 1.3rem;
   color: grey;
 }
-
 .site__main .media__article {
   display: flex;
   flex-flow: column;
   gap: 10px;
 }
-
 @media screen and (min-width: 1200px) {
   .site__main .media__article {
     flex-flow: row;
     gap: 30px;
   }
 }
-
 .site__main img {
   max-width: 400px;
   display: block;
 }
-
 .site__main a {
   color: initial;
 }
@@ -729,14 +702,12 @@ textarea {
   background-color: white;
   margin-top: 4rem;
 }
-
 @media screen and (min-width: 700px) {
   .site__sidebar {
     margin-top: 0;
     padding: 1rem 1rem 1rem 4rem;
   }
 }
-
 .site__sidebar h3 {
   color: #4169e1;
 }
@@ -746,9 +717,7 @@ textarea {
   background-color: #000543;
   text-align: center;
 }
-
 .site__footer h2 {
-  color: #cfcecf;
+  color: rgb(207, 206, 207);
   font-size: 1.3rem;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

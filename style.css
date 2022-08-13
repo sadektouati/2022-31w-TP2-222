@@ -689,9 +689,12 @@ textarea {
 
 .site__main h2 {
   margin-top: 3rem;
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   color: #404040;
-  text-decoration: underline;
+}
+
+.site__main h2 a {
+  text-decoration: none;
 }
 
 .site__main img {

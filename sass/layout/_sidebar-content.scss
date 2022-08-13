@@ -62,6 +62,10 @@
     color: $color__text-main;
     text-decoration: underline;
 	}
+	img{
+		width: min(400px, 90%);
+		display: block;
+	}
 	a{
 		color: initial;
 	}

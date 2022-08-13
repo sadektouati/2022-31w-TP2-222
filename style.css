@@ -702,6 +702,19 @@ textarea {
   color: grey;
 }
 
+.site__main .media__article {
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+  .site__main .media__article {
+    flex-flow: row;
+    gap: 30px;
+  }
+}
+
 .site__main img {
   max-width: 400px;
   display: block;

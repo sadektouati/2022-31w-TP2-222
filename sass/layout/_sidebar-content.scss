@@ -72,6 +72,17 @@
 
 	}
 
+	.media__article{
+		display: flex;
+		flex-flow: column;
+		gap : 10px;
+
+		@media screen and (min-width: 1200px) {
+			flex-flow: row;
+			gap : 30px;
+		}
+	}
+
 	img{
 		max-width: 400px;
 		display: block;

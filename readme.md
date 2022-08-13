@@ -13,9 +13,10 @@ single.php
 footer.php
 screenshot.png
 readme.md
+404.php
+category-cours.php
 > Le thème contient les dossier suivants:
 sass: contient 5 dossiers
-index_files
 
 
 Pour plus d'information sur la conception de thème

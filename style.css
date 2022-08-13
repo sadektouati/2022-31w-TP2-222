@@ -691,11 +691,15 @@ textarea {
 .site__main h2 {
   margin-top: 3rem;
   font-size: 1.7rem;
-  color: #404040;
 }
 
 .site__main h2 a {
   text-decoration: none;
+}
+
+.site__main h3 {
+  font-size: 1.3rem;
+  color: grey;
 }
 
 .site__main img {

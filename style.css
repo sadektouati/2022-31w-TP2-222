@@ -694,6 +694,11 @@ textarea {
   text-decoration: underline;
 }
 
+.site__main img {
+  max-width: 400px;
+  display: block;
+}
+
 .site__main a {
   color: initial;
 }
